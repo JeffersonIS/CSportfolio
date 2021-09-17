@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
   </head>
@@ -9,109 +10,113 @@
     <div class="header">
       <div>
         <ul class="nav-bar">
-          <li class="nav-item" style="float:left"><a class="active" href="#about">The Portfolio <span id="signature-spacer">|</span><span id="header-signature">Jefferson Ostler<span></a></li>
+
+          <li id="header-signature" class="nav-item header-signature" style="float:left">
+            <a class="active" href="#about">
+              The Portfolio <span id="signature-spacer">|</span> Jefferson Ostler
+            </a>
+          </li>
+
           <li class="nav-item"><a href="#about">About</a></li>
           <li class="nav-item"><a href="#projects">Projects</a></li>
           <li class="nav-item"><a href="#experience">Experience</a></li>
-          <li class="nav-item" style="float:right"><a class="active" href="#home">CS 260</a></li>
+
         </ul>
       </div>
     </div>
     <hr>
-    <div class="section">
-      <h2 class="text-center subheader">About</h2>
-      <div class="text-left" id="about-paragraph">
-        <p>My name is Jefferson Ostler. I am from Washington State. I am studying at BYU. I love desgining and building and cooking. I love running and exercising. I love college sports.
-          I never planned on being a computer nerd. But here I am, and I love it. When I started college, my sister-in-law told me to try out Information Systems. Immediately I fell in love.
-          Building is my gig. Creativity is my thing.
-          I am fifth of seven kids and recently married the love of my life. Her name is Amber. She is also perusing a Master's degree in Information Systems with me at BYU.
-          I am thrilled about life.</p>
+    <div class="main-container">
+
+      <div class="section">
+        <h2 class="text-center subheader">About</h2>
+        <div class="text-left" id="about-paragraph">
+          <p>My name is Jefferson Ostler. I am from Washington State. I am studying at BYU. I love desgining and building and cooking. I love running and exercising. I love college sports.
+            I never planned on being a computer nerd. But here I am, and I love it. When I started college, my sister-in-law told me to try out Information Systems. Immediately I fell in love.
+            Building is my gig. Creativity is my thing.
+            I am fifth of seven kids and recently married the love of my life. Her name is Amber. She is also perusing a Master's degree in Information Systems with me at BYU.
+            I am thrilled about life.</p>
+        </div>
+      </div>
+
+      <div class="section">
+      <h2 class="text-center subheader">Projects</h2>
+
+      <div class="project-box">
+
+        <div class="card" >
+          <a target="_blank" href="https://www.ostlercoaching.com">
+          <img src="images/ostlercoaching.png" alt="img" style="width:100%">
+          <div class="card-text-container">
+            <h4>Ostler Coaching</h4>
+          </div>
+          </a>
+        </div>
+
+        <div class="card">
+          <a target="_blank" href="https://www.hillcreekhomes.com">
+          <img src="images/hillcreekhomes.png" alt="img" style="width:100%">
+          <div class="card-text-container">
+            <h4>Hillcreek Homes</h4>
+          </div>
+          </a>
+        </div>
+
+        <div class="card">
+          <a target="_blank" href="https://www.ostlerfilmandphoto.com">
+          <img src="images/ostlerfilmandphoto.png" alt="img" style="width:100%">
+          <div class="card-text-container">
+            <h4>Ostler Film & Photo</h4>
+          </div>
+          </a>
+        </div>
+
+        <div class="card">
+          <a target="_blank" href="https://jeffersonis.github.io/project-battleship/">
+          <img src="images/battleship.png" alt="img" style="width:100%">
+          <div class="card-text-container">
+            <h4>Battleship</h4>
+          </div>
+          </a>
+        </div>
       </div>
     </div>
 
-    <div class="section">
-    <h2 class="text-center subheader">Projects</h2>
+      <div class="section">
+        <h2 class="text-center subheader">Experience</h2>
 
-    <div>
-
-      <div class="card" >
-        <a target="_blank" href="https://www.ostlercoaching.com">
-        <img src="images/ostlercoaching.png" alt="img" style="width:100%">
-        <div class="card-text-container">
-          <h4><b>Ostler Coaching</b></h4>
-          <p>lorem ipsum ..... </p>
-        </div>
-        </a>
-      </div>
-
-      <div class="card">
-        <a target="_blank" href="https://www.hillcreekhomes.com">
-        <img src="images/hillcreekhomes.png" alt="img" style="width:100%">
-        <div class="card-text-container">
-          <h4><b>Hillcreek Homes</b></h4>
-          <p>lorem ipsum ..... </p>
-        </div>
-        </a>
-      </div>
-
-      <div class="card">
-        <a target="_blank" href="https://www.ostlerfilmandphoto.com">
-        <img src="images/ostlerfilmandphoto.png" alt="img" style="width:100%">
-        <div class="card-text-container">
-          <h4><b>Ostler Film & Photo</b></h4>
-          <p>lorem ipsum ..... </p>
-        </div>
-        </a>
-      </div>
-
-      <div class="card">
-        <a target="_blank" href="https://jeffersonis.github.io/project-battleship/">
-        <img src="images/battleship.png" alt="img" style="width:100%">
-        <div class="card-text-container">
-          <h4><b>Battleship</b></h4>
-          <p>lorem ipsum ..... </p>
-        </div>
-        </a>
-      </div>
-      </div>
-    </div>
-
-    <div class="section">
-      <h2 class="text-center subheader">Experience</h2>
-
-        <div class="experience-card">
-          <div class="experience-subheaader">
-            <h4>Web Developer - Intermountain Healthcare</h4><br>
+          <div class="experience-card">
+            <div class="experience-subheaader">
+              <h4>Web Developer - Intermountain Healthcare</h4><br>
+            </div>
+            <div class="experience-body">
+              <p> I was a software dev at IHC this summer and loved it. I developed in Typescript and React.</p>
+            </div>
           </div>
-          <div class="experience-body">
-            <p> I was a software dev at IHC this summer and loved it. I developed in Typescript and React.</p>
+          <div class="vl"></div>
+          <div class="experience-card">
+            <div class="experience-subheaader">
+              <h4>Freelance Developer</h4><br>
+            </div>
+            <div class="experience-body">
+              <p> I have worked and developed websites listed above and loved it.</p>
+            </div>
           </div>
-        </div>
-        <div class="vl"></div>
-        <div class="experience-card">
-          <div class="experience-subheaader">
-            <h4>Freelance Developer</h4><br>
-          </div>
-          <div class="experience-body">
-            <p> I have worked and developed websites listed above and loved it.</p>
-          </div>
-        </div>
-
-    </div>
-
-    <div class="section">
-      <h2 class="text-center subheader">Contact</h2>
-      <div class="contact-section">
-        <ul>
-          <li><a target="_blank" href="https://github.com/JeffersonIS">
-            <img src="images/GitHub-Mark.png" alt="github"/></a></li>
-          <li><a target="_blank" href="https://www.linkedin.com/in/jefferson-ostler/">
-            <img src="images/linkedin.png" alt="linkedin"/></a></li>
-        </ul>
 
       </div>
 
-      </div>
+      <div class="section">
+        <h2 class="text-center subheader">Contact</h2>
+        <div class="contact-section">
+          <ul>
+            <li><a target="_blank" href="https://github.com/JeffersonIS">
+              <img src="images/GitHub-Mark.png" alt="github"/></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/in/jefferson-ostler/">
+              <img src="images/linkedin.png" alt="linkedin"/></a></li>
+          </ul>
 
+        </div>
+
+        </div>
+      </div>
   </body>
 </html>
